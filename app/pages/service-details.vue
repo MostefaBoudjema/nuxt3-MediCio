@@ -75,7 +75,7 @@
       </section>
     </main>
 
-    <FooterSection />
+    <FooterSection/>
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
     <!-- <div id="preloader"></div> -->
@@ -83,6 +83,11 @@
 </template>
 
 <script setup>
+import FooterSection from '~/components/shared/FooterSection.vue';
+import HeaderSection from '~/components/shared/HeaderSection.vue';
+definePageMeta({
+  layout: 'default'
+})
 useHead({
   title: 'Service Details - Medicio Bootstrap Template',
   meta: [
@@ -90,7 +95,7 @@ useHead({
     { name: 'keywords', content: '' }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.png' },
+    // { rel: 'icon', href: '/favicon.png' },
     { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap' },
     { rel: 'stylesheet', href: '/vendor/bootstrap/css/bootstrap.min.css' },
