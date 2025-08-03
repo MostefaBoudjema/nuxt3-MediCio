@@ -1,32 +1,48 @@
 <script setup>
 import { onMounted, ref } from 'vue'
-let swiperInstance=null
-const swiperConfig={
-  loop: true,
-  speed: 600,
-  autoplay: { delay: 5000 },
-  slidesPerView: 'auto',
-  pagination: { el: '.swiper-pagination', type: 'bullets', clickable: true },
-  breakpoints: {
-    320: { slidesPerView: 1, spaceBetween: 40 },
-    1200: { slidesPerView: 3, spaceBetween: 20 }
-  }
-}
-const swiperEl=ref(null)
+import Swiper from 'swiper/bundle'
+import 'swiper/css/bundle'
+
+const swiperEl = ref(null)
+
 onMounted(() => {
-  if (window.Swiper&&swiperEl.value) {
-    swiperInstance=new window.Swiper(swiperEl.value, swiperConfig)
+  if (swiperEl.value) {
+    new Swiper(swiperEl.value, {
+      loop: true,
+      speed: 600,
+      autoplay: {
+        delay: 5000
+      },
+      slidesPerView: 'auto',
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 40
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 20
+        }
+      }
+    })
   }
 })
 </script>
+
 <template>
   <section id="testimonials" class="testimonials section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Testimonials</h2>
       <p>What our patients and partners say about us</p>
     </div>
+
     <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="swiper init-swiper" ref="swiperEl">
+      <div class="swiper" ref="swiperEl">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="testimonial-item">
