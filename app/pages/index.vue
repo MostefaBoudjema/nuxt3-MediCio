@@ -28,7 +28,7 @@
 import FooterSection from '~/components/shared/FooterSection.vue';
 import HeaderSection from '~/components/shared/HeaderSection.vue';
 useHead({
-  title: 'Index - Medicio Bootstrap Template',
+  title: 'Home - Medicio Bootstrap Template',
   meta: [
     { name: 'description', content: '' },
     { name: 'keywords', content: '' }

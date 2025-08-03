@@ -2,7 +2,7 @@
   <section id="tabs" class="tabs section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Departments</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <p>Explore our specialized departments providing expert care and advanced treatments tailored to patient needs.</p>
     </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row">
@@ -31,8 +31,8 @@
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
                   <h3>Cardiology</h3>
-                  <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                  <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                  <p class="fst-italic">Our cardiology department offers cutting-edge diagnostics and treatments for all types of heart conditions.</p>
+                  <p>We specialize in non-invasive and interventional cardiology, treating patients with heart disease, arrhythmias, hypertension, and more. Our team of experts ensures personalized care using the latest medical technology and evidence-based protocols.</p>
                 </div>
                 <div class="col-lg-4 text-center order-1 order-lg-2">
                   <img src="/img/departments-1.jpg" alt="" class="img-fluid">
@@ -43,8 +43,8 @@
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
                   <h3>Neurology</h3>
-                  <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                  <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                  <p class="fst-italic">Advanced care for disorders of the brain, spinal cord, and nervous system.</p>
+                  <p>We diagnose and manage conditions such as epilepsy, stroke, Parkinson’s disease, and multiple sclerosis. Our multidisciplinary approach ensures patients receive comprehensive care, from diagnostics to rehabilitation and support therapy.</p>
                 </div>
                 <div class="col-lg-4 text-center order-1 order-lg-2">
                   <img src="/img/departments-2.jpg" alt="" class="img-fluid">
@@ -55,8 +55,8 @@
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
                   <h3>Hepatology</h3>
-                  <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                  <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                  <p class="fst-italic">Expert care for liver, gallbladder, and pancreatic diseases.</p>
+                  <p>We offer evaluation and management of hepatitis, cirrhosis, fatty liver disease, and other hepatic conditions. Our team collaborates with gastroenterology and oncology units to provide integrated care for complex liver disorders.</p>
                 </div>
                 <div class="col-lg-4 text-center order-1 order-lg-2">
                   <img src="/img/departments-3.jpg" alt="" class="img-fluid">
@@ -67,8 +67,8 @@
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
                   <h3>Pediatrics</h3>
-                  <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                  <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                  <p class="fst-italic">Dedicated to the health and well-being of infants, children, and adolescents.</p>
+                  <p>Our pediatricians provide routine checkups, vaccinations, developmental screenings, and treatment for common childhood illnesses. We emphasize a family-centered approach to care and early intervention for long-term health benefits.</p>
                 </div>
                 <div class="col-lg-4 text-center order-1 order-lg-2">
                   <img src="/img/departments-4.jpg" alt="" class="img-fluid">
@@ -79,8 +79,8 @@
               <div class="row">
                 <div class="col-lg-8 details order-2 order-lg-1">
                   <h3>Ophthalmologists</h3>
-                  <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                  <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  <p class="fst-italic">Providing comprehensive eye care, from vision correction to complex surgeries.</p>
+                  <p>We treat cataracts, glaucoma, macular degeneration, and other ocular diseases. With advanced diagnostic tools and surgical expertise, our ophthalmology team ensures patients receive clear vision and healthy eyes at every stage of life.</p>
                 </div>
                 <div class="col-lg-4 text-center order-1 order-lg-2">
                   <img src="/img/departments-5.jpg" alt="" class="img-fluid">
@@ -92,4 +92,4 @@
       </div>
     </div>
   </section>
-</template> 
+</template>

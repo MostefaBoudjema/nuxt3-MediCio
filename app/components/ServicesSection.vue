@@ -1,20 +1,20 @@
 <template>
-  <section id="services" class="services section">
+<section id="services" class="services section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Services</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <p>Explore a wide range of medical specialties and services tailored to meet your healthcare needs.</p>
     </div>
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-item  position-relative">
+          <div class="service-item position-relative">
             <div class="icon">
               <i class="fas fa-heartbeat"></i>
             </div>
             <a href="#" class="stretched-link">
-              <h3>Nesciunt Mete</h3>
+              <h3>Cardiology</h3>
             </a>
-            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+            <p>Comprehensive heart care, from diagnostics to advanced treatment plans tailored for each patient.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -23,9 +23,9 @@
               <i class="fas fa-pills"></i>
             </div>
             <a href="#" class="stretched-link">
-              <h3>Eosle Commodi</h3>
+              <h3>Pharmacy Services</h3>
             </a>
-            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+            <p>On-site pharmacy with a wide range of medications and expert guidance for safe usage and dosage.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -34,9 +34,9 @@
               <i class="fas fa-hospital-user"></i>
             </div>
             <a href="#" class="stretched-link">
-              <h3>Ledo Markt</h3>
+              <h3>Patient Care</h3>
             </a>
-            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+            <p>24/7 in-patient and out-patient support to ensure a comfortable and safe healing experience.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
@@ -45,10 +45,9 @@
               <i class="fas fa-dna"></i>
             </div>
             <a href="#" class="stretched-link">
-              <h3>Asperiores Commodit</h3>
+              <h3>Laboratory Testing</h3>
             </a>
-            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-            <a href="#" class="stretched-link"></a>
+            <p>Fast and accurate lab results using state-of-the-art diagnostic equipment and trained professionals.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
@@ -57,10 +56,9 @@
               <i class="fas fa-wheelchair"></i>
             </div>
             <a href="#" class="stretched-link">
-              <h3>Velit Doloremque</h3>
+              <h3>Rehabilitation</h3>
             </a>
-            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-            <a href="#" class="stretched-link"></a>
+            <p>Personalized rehab programs for physical therapy, post-surgery recovery, and chronic condition support.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -69,13 +67,12 @@
               <i class="fas fa-notes-medical"></i>
             </div>
             <a href="#" class="stretched-link">
-              <h3>Dolori Architecto</h3>
+              <h3>Medical Records</h3>
             </a>
-            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-            <a href="#" class="stretched-link"></a>
+            <p>Secure and organized medical records system for easy access, history tracking, and doctor collaboration.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-</template> 
+</template>

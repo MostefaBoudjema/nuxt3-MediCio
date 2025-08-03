@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
-let swiperInstance = null
-const swiperConfig = {
+let swiperInstance=null
+const swiperConfig={
   loop: true,
   speed: 600,
   autoplay: { delay: 5000 },
@@ -12,10 +12,10 @@ const swiperConfig = {
     1200: { slidesPerView: 3, spaceBetween: 20 }
   }
 }
-const swiperEl = ref(null)
+const swiperEl=ref(null)
 onMounted(() => {
-  if (window.Swiper && swiperEl.value) {
-    swiperInstance = new window.Swiper(swiperEl.value, swiperConfig)
+  if (window.Swiper&&swiperEl.value) {
+    swiperInstance=new window.Swiper(swiperEl.value, swiperConfig)
   }
 })
 </script>
@@ -23,7 +23,7 @@ onMounted(() => {
   <section id="testimonials" class="testimonials section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Testimonials</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <p>What our patients and partners say about us</p>
     </div>
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="swiper init-swiper" ref="swiperEl">
@@ -32,19 +32,22 @@ onMounted(() => {
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                <span>Medicio provided excellent care and attention throughout my treatment. The staff was compassionate
+                  and truly committed to my recovery journey.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
               <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              <h4>CEO &amp; Founder</h4>
             </div>
           </div>
+
           <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                <span>Our collaboration with Medicio’s research team was outstanding. Their professionalism and
+                  innovative approach brought measurable results to our clinical study.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -52,11 +55,13 @@ onMounted(() => {
               <h4>Designer</h4>
             </div>
           </div>
+
           <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                <span>The doctors at Medicio are knowledgeable and caring. They explained everything in detail and made
+                  sure I was comfortable throughout my visits.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <img src="/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -64,11 +69,13 @@ onMounted(() => {
               <h4>Store Owner</h4>
             </div>
           </div>
+
           <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                <span>Impressed by the state-of-the-art facilities and the warm, welcoming environment. I’d highly
+                  recommend Medicio for any health concern.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <img src="/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -76,11 +83,13 @@ onMounted(() => {
               <h4>Freelancer</h4>
             </div>
           </div>
+
           <div class="swiper-slide">
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                <span>The team was attentive and responsive to every question I had. Their support helped me feel
+                  confident and well cared for throughout my treatment.</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <img src="/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -93,4 +102,4 @@ onMounted(() => {
       </div>
     </div>
   </section>
-</template> 
+</template>

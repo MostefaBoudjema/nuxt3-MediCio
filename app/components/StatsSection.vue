@@ -1,4 +1,5 @@
 <template>
+
   <section id="stats" class="stats section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-4">
@@ -41,4 +42,4 @@
       </div>
     </div>
   </section>
-</template> 
+</template>
