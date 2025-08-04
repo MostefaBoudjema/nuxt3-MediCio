@@ -22,7 +22,7 @@
                         <li><a href="#services">Services</a></li>
                         <li><a href="#tabs">Departments</a></li>
                         <li><a href="#doctors">Doctors</a></li>
-                        <li class="dropdown"><a href="#"><span>Dropdown</span> <i
+                        <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                                     class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
                                 <li><a href="#">Dropdown 1</a></li>
@@ -40,7 +40,7 @@
                                 <li><a href="#">Dropdown 3</a></li>
                                 <li><a href="#">Dropdown 4</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
