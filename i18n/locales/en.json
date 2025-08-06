@@ -361,7 +361,7 @@
         },
         "phone": {
             "label": "Phone:",
-            "number": "+1 5589 55488 55"
+            "number": "+213 661 234 567"
         },
         "email": {
             "label": "Email:",
@@ -416,7 +416,7 @@
     },
     "header": {
         "schedule": "Monday - Saturday, 8AM to 10PM",
-        "call": "Call us now +1 5589 55488 55"
+        "call": "Call us now +213 661 234 567"
     },
     "nav": {
         "home": "Home",

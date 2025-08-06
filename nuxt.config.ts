@@ -2,7 +2,7 @@
 import { defineNuxtConfig } from 'nuxt/config';
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
-    // components: [{ path: '~/components/shared', pathPrefix: false }],
+    // components: [{ path: '~/app/components/shared', pathPrefix: false }],
     devtools: { enabled: true },
     modules: [
         [
