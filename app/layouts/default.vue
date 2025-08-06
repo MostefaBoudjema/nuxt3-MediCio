@@ -35,6 +35,7 @@ useHead({
     { rel: 'stylesheet', href: '/css/rtl.css' }
   ],
   script: [
+    { src: '/vendor/bootstrap/js/bootstrap.bundle.min.js', body: true },
     { src: '/vendor/php-email-form/validate.js', body: true },
     { src: '/vendor/aos/aos.js', body: true },
     { src: '/vendor/glightbox/js/glightbox.min.js', body: true },
@@ -43,12 +44,4 @@ useHead({
   ]
 })
 
-// onMounted(() => {
-//   AOS.init({
-//     duration: 1000, // Animation duration
-//     easing: 'ease-in-out', // Animation easing
-//     once: true, // Whether animation should happen only once
-//     mirror: false, // Whether elements should animate out while scrolling past them
-//   });
-// });
 </script>
