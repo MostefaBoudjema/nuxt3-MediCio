@@ -18,7 +18,8 @@
       <div class="branding d-flex align-items-center">
         <div :class="['container position-relative d-flex align-items-center justify-content-end']">
           <NuxtLink to="/" class="logo d-flex align-items-center ms-auto">
-            <img src="/img/logo.png" alt="">
+            <img :src="$i18n.locale === 'ar' ? '/img/logo - rtl.png' : '/img/logo.png'" alt="Logo">
+
           </NuxtLink>
           <nav id="navmenu" class="navmenu">
             <ul :class="{ 'flex-row-reverse': $i18n.locale === 'ar' }">
