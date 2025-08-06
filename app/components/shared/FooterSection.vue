@@ -2,18 +2,19 @@
 </script>
 
 <template>
-  <div :class="{'rtl': $i18n.locale === 'ar'}">
+  <div :class="{ 'rtl': $i18n.locale === 'ar' }">
     <footer id="footer" class="footer light-background">
       <div class="container footer-top">
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
-            <NuxtLink href="/" class="logo d-flex align-items-center">
-              <span class="sitename">Medicio</span>
+            <NuxtLink to="/" class="logo d-flex align-items-center ms-auto">
+              <img :src="$i18n.locale === 'ar' ? '/img/logo - rtl.png' : '/img/logo.png'" alt="Logo">
             </NuxtLink>
             <div class="footer-contact pt-3">
               <p>{{ $t('footer.address.line1') }}</p>
               <p>{{ $t('footer.address.line2') }}</p>
-              <p class="mt-3"><strong>{{ $t('footer.phone.label') }}</strong> <span>{{ $t('footer.phone.number') }}</span></p>
+              <p class="mt-3"><strong>{{ $t('footer.phone.label') }}</strong> <span>{{ $t('footer.phone.number')
+                  }}</span></p>
               <p><strong>{{ $t('footer.email.label') }}</strong> <span>{{ $t('footer.email.address') }}</span></p>
             </div>
             <div class="social-links d-flex mt-4">
@@ -72,7 +73,7 @@
 
       <div class="container copyright text-center mt-4">
         <p>© <span>{{ $t('footer.copyright.year') }}</span>
-          <strong class="px-1 sitename">Medicio</strong>
+          <strong class="px-1 sitename">{{ $t('Medicio') }}</strong>
           <span>{{ $t('footer.copyright.rights') }}</span>
         </p>
       </div>
