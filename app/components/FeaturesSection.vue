@@ -12,7 +12,7 @@
           <p>{{ $t('features.description') }}</p>
 
           <div
-            v-for="(feature, index) in $t('features.items', featureItems)"
+            v-for="(feature, index) in featureItems"
             :key="index"
             class="icon-box d-flex position-relative"
             :data-aos-delay="(index + 3) * 100"
@@ -20,8 +20,8 @@
           >
             <i :class="feature.icon + ' flex-shrink-0'"></i>
             <div>
-              <h4><a href="#" class="stretched-link">{{ feature.title }}</a></h4>
-              <p>{{ feature.text }}</p>
+              <h4><a href="#" class="stretched-link">{{ $t(feature.title) }}</a></h4>
+              <p>{{ $t(feature.text) }}</p>
             </div>
           </div>
 
