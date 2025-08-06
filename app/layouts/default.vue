@@ -31,7 +31,8 @@ useHead({
     { rel: 'stylesheet', href: '/vendor/fontawesome-free/css/all.min.css' },
     { rel: 'stylesheet', href: '/vendor/glightbox/css/glightbox.min.css' },
     { rel: 'stylesheet', href: '/vendor/swiper/swiper-bundle.min.css' },
-    { rel: 'stylesheet', href: '/css/main.css' }
+    { rel: 'stylesheet', href: '/css/main.css' },
+    { rel: 'stylesheet', href: '/css/rtl.css' }
   ],
   script: [
     { src: '/vendor/php-email-form/validate.js', body: true },

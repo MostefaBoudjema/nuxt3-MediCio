@@ -1,0 +1,15 @@
+/* RTL styles for Arabic locale */
+html[lang='ar'] {
+  direction: rtl;
+}
+
+/* Example: Reverse alignment for text */
+.text-left {
+  text-align: right;
+}
+
+.text-right {
+  text-align: left;
+}
+
+/* Add more styles as needed */

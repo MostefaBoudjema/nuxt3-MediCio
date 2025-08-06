@@ -30,14 +30,15 @@ export default defineNuxtConfig({
             },
         ],
     ],
-    // plugins: ['~/plugins/bootstrap.client.ts', '~/plugins/aos.client.js'],
     plugins: ['~/plugins/bootstrap.client.ts', '~/plugins/aos.client.js'],
-    css: [
-        'bootstrap-icons/font/bootstrap-icons.css',
-    ],
+    css: ['bootstrap-icons/font/bootstrap-icons.css'],
     app: {
         head: {
             title: 'MEDICIO',
+
+            htmlAttrs: {
+                lang: 'ar',
+            },
             link: [
                 { rel: 'icon', type: 'image/png', href: '/img/favicon.png' },
             ],

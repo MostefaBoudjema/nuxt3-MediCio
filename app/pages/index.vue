@@ -22,8 +22,6 @@
 </template>
 
 <script setup>
-import FooterSection from '~/components/shared/FooterSection.vue';
-import HeaderSection from '~/components/shared/HeaderSection.vue';
 useHead({
   title: 'Home - Medicio',
   meta: [

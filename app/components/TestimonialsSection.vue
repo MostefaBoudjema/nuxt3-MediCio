@@ -1,30 +1,32 @@
 <template>
-  <section id="testimonials" class="testimonials section">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>{{ $t('testimonials.title') }}</h2>
-      <p>{{ $t('testimonials.subtitle') }}</p>
-    </div>
+  <div :class="{'rtl': $i18n.locale === 'ar'}">
+    <section id="testimonials" class="testimonials section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{{ $t('testimonials.title') }}</h2>
+        <p>{{ $t('testimonials.subtitle') }}</p>
+      </div>
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="swiper" ref="swiperEl">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" v-for="(item, i) in testimonials" :key="i">
-            <div class="testimonial-item">
-              <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                <span>{{ $t(item.text) }}</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-              </p>
-              <img :src="item.image" class="testimonial-img" alt="">
-              <h3>{{ $t(item.name) }}</h3>
-              <h4>{{ $t(item.role) }}</h4>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper" ref="swiperEl">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" v-for="(item, i) in testimonials" :key="i">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>{{ $t(item.text) }}</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img :src="item.image" class="testimonial-img" alt="">
+                <h3>{{ $t(item.name) }}</h3>
+                <h4>{{ $t(item.role) }}</h4>
+              </div>
             </div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-pagination"></div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 <script setup>
 import { onMounted, ref } from 'vue'
