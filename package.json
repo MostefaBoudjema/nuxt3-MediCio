@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "^10.0.3",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.7",
     "bootstrap-icons": "^1.13.1",
     "nuxt": "^4.0.1",
@@ -20,6 +21,7 @@
   },
   "packageManager": "pnpm@10.12.4+sha1.88a0ccfe72d6345dede50dc9d6158400be2420eb",
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/i18n": "^0.13.12"
   }
 }
