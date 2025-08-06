@@ -4,42 +4,24 @@
       <div class="row justify-content-around gy-4">
 
         <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
-          <img src="/img/features.jpg" alt="Modern medical facility">
+          <img src="/img/features.jpg" :alt="$t('features.imageAlt')">
         </div>
 
         <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-          <h3>Why Choose Our Clinic</h3>
-          <p>We are committed to providing high-quality, patient-centered care with advanced medical technology and experienced professionals at your service.</p>
+          <h3>{{ $t('features.title') }}</h3>
+          <p>{{ $t('features.description') }}</p>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-            <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
+          <div
+            v-for="(feature, index) in $t('features.items', featureItems)"
+            :key="index"
+            class="icon-box d-flex position-relative"
+            :data-aos-delay="(index + 3) * 100"
+            data-aos="fade-up"
+          >
+            <i :class="feature.icon + ' flex-shrink-0'"></i>
             <div>
-              <h4><a href="#" class="stretched-link">24/7 Emergency Support</a></h4>
-              <p>Our emergency department is open round-the-clock to handle urgent medical needs with quick response times.</p>
-            </div>
-          </div>
-
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-            <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
-            <div>
-              <h4><a href="#" class="stretched-link">Experienced Medical Staff</a></h4>
-              <p>Our team includes board-certified doctors, skilled nurses, and compassionate caregivers ready to serve you.</p>
-            </div>
-          </div>
-
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-            <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
-            <div>
-              <h4><a href="#" class="stretched-link">Advanced Diagnostics</a></h4>
-              <p>We use the latest imaging and lab technology to ensure fast, accurate diagnoses and better treatment outcomes.</p>
-            </div>
-          </div>
-
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-            <i class="fa-solid fa-lungs flex-shrink-0"></i>
-            <div>
-              <h4><a href="#" class="stretched-link">Specialized Care Units</a></h4>
-              <p>From cardiology to pulmonology, our specialists offer personalized care for a wide range of conditions.</p>
+              <h4><a href="#" class="stretched-link">{{ feature.title }}</a></h4>
+              <p>{{ feature.text }}</p>
             </div>
           </div>
 
@@ -48,3 +30,28 @@
     </div>
   </section>
 </template>
+
+<script setup>
+const featureItems = [
+  {
+    icon: 'fa-solid fa-hand-holding-medical',
+    title: 'features.items.0.title',
+    text: 'features.items.0.text',
+  },
+  {
+    icon: 'fa-solid fa-suitcase-medical',
+    title: 'features.items.1.title',
+    text: 'features.items.1.text',
+  },
+  {
+    icon: 'fa-solid fa-staff-snake',
+    title: 'features.items.2.title',
+    text: 'features.items.2.text',
+  },
+  {
+    icon: 'fa-solid fa-lungs',
+    title: 'features.items.3.title',
+    text: 'features.items.3.text',
+  },
+];
+</script>

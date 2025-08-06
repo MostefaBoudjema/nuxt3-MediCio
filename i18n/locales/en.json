@@ -1,0 +1,430 @@
+{
+    "about": {
+        "title": "About Us",
+        "subtitle": "We are a dedicated team of developers and creatives delivering impactful digital solutions tailored to your business needs.",
+        "imageAlt": "About us image",
+        "heading": "Empowering Businesses Through Technology and Innovation",
+        "mission": "Our mission is to transform your vision into reality through custom software, intuitive interfaces, and scalable digital strategies.",
+        "point1": "We craft responsive, SEO-friendly websites that drive results.",
+        "point2": "Our team excels at building scalable backend systems using modern frameworks.",
+        "point3": "From branding to full-stack development, we deliver solutions that grow with your business.",
+        "description": "With years of experience across industries, we blend creativity with code to solve real-world problems and support long-term success. Let's build something great together."
+    },
+    "hero": {
+        "slide1": {
+            "title": "Welcome to Medicio",
+            "text": "We provide top-tier medical services..."
+        },
+        "slide2": {
+            "title": "Advanced Care, Trusted Professionals",
+            "text": "Our team of experienced doctors..."
+        },
+        "slide3": {
+            "title": "Your Health, Our Priority",
+            "text": "From preventive check-ups to complex surgeries..."
+        },
+        "readMore": "Read More"
+    },
+    "appointment": {
+        "title": "MAKE AN APPOINTMENT",
+        "subtitle": "Schedule your visit with one of our experienced specialists. Fast, easy, and secure.",
+        "name": "Your Full Name",
+        "email": "Your Email Address",
+        "phone": "Your Phone Number",
+        "datetime": "Preferred Date & Time",
+        "notes": "Additional Notes or Concerns (optional)",
+        "department": {
+            "choose": "Choose Department",
+            "general": "General Medicine",
+            "pediatrics": "Pediatrics",
+            "dermatology": "Dermatology",
+            "dentistry": "Dentistry"
+        },
+        "doctor": {
+            "choose": "Choose Doctor",
+            "sarah": "Dr. Sarah Benali",
+            "karim": "Dr. Karim Ait",
+            "lina": "Dr. Lina Kacem"
+        },
+        "submit": "Make an Appointment",
+        "loading": "Processing your request...",
+        "success": "Your appointment request has been sent successfully. We'll contact you shortly to confirm."
+    },
+    "cta": {
+        "title": "In an emergency? Need help now?",
+        "text": "If you're experiencing a medical emergency or require urgent assistance, our team is ready to support you 24/7. Don’t hesitate to reach out or book an immediate appointment.",
+        "button": "Make an Appointment"
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Have questions or need support? Reach out to us anytime — we’re here to help.",
+        "addressTitle": "Address",
+        "address": "123 Avenue de l’Indépendance, Annaba, Algeria",
+        "phoneTitle": "Call Us",
+        "phone": "+213 661 234 567",
+        "emailTitle": "Email Us",
+        "email": "supportyourcompany.com",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "subject": "Subject",
+            "message": "Message",
+            "send": "Send Message",
+            "loading": "Sending...",
+            "success": "Thank you! Your message has been successfully sent. We will get back to you shortly."
+        }
+    },
+    "doctors": {
+        "title": "Doctors",
+        "subtitle": "Meet our experienced team of medical professionals dedicated to providing exceptional care across a wide range of specialties.",
+        "walter": {
+            "name": "Dr. Walter White",
+            "role": "Chief Medical Officer"
+        },
+        "sarah": {
+            "name": "Dr. Sarah Johnson",
+            "role": "Anesthesiologist"
+        },
+        "william": {
+            "name": "Dr. William Anderson",
+            "role": "Cardiologist"
+        },
+        "amanda": {
+            "name": "Dr. Amanda Jepson",
+            "role": "Neurosurgeon"
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions about appointments, services, and patient support.",
+        "q1": {
+            "question": "How can I book an appointment?",
+            "answer": "You can book an appointment online through our website, by calling us directly, or by visiting our clinic during working hours."
+        },
+        "q2": {
+            "question": "Do I need a referral to see a specialist?",
+            "answer": "No referral is needed for most of our services. However, some insurance providers may require a referral for coverage purposes."
+        },
+        "q3": {
+            "question": "What should I bring to my first visit?",
+            "answer": "Please bring your ID, any medical records, a list of medications you're taking, and your insurance information if applicable."
+        },
+        "q4": {
+            "question": "Can I reschedule or cancel my appointment?",
+            "answer": "Yes. You can reschedule or cancel your appointment up to 24 hours in advance by calling our front desk or using our online system."
+        },
+        "q5": {
+            "question": "Do you accept walk-ins?",
+            "answer": "We recommend booking in advance, but we do accept walk-ins based on availability. Priority is given to those with appointments."
+        },
+        "q6": {
+            "question": "Which insurance plans do you accept?",
+            "answer": "We accept most major insurance providers. Please contact us or check our insurance page for a full list of accepted plans."
+        }
+    },
+    "features": {
+        "imageAlt": "Modern medical facility",
+        "title": "Why Choose Our Clinic",
+        "description": "We are committed to providing high-quality, patient-centered care with advanced medical technology and experienced professionals at your service.",
+        "items": [
+            {
+                "title": "24/7 Emergency Support",
+                "text": "Our emergency department is open round-the-clock to handle urgent medical needs with quick response times."
+            },
+            {
+                "title": "Experienced Medical Staff",
+                "text": "Our team includes board-certified doctors, skilled nurses, and compassionate caregivers ready to serve you."
+            },
+            {
+                "title": "Advanced Diagnostics",
+                "text": "We use the latest imaging and lab technology to ensure fast, accurate diagnoses and better treatment outcomes."
+            },
+            {
+                "title": "Specialized Care Units",
+                "text": "From cardiology to pulmonology, our specialists offer personalized care for a wide range of conditions."
+            }
+        ]
+    },
+    "gallery": {
+        "title": "Gallery",
+        "description": "Explore photos of our facility, modern equipment, and patient-friendly environment. See why families trust us with their care.",
+        "alt1": "Reception area",
+        "alt2": "Modern examination room",
+        "alt3": "Patient waiting lounge",
+        "alt4": "Advanced diagnostic equipment",
+        "alt5": "Laboratory setup",
+        "alt6": "Doctor consultation room",
+        "alt7": "Operating theatre",
+        "alt8": "Clinic exterior view"
+    },
+    "pricing": {
+        "title": "Pricing",
+        "description": "Choose a plan that fits your healthcare needs. Transparent pricing with no hidden fees.",
+        "month": "month",
+        "bookNow": "Book Now",
+        "plans": {
+            "basic": {
+                "title": "Basic Checkup",
+                "features": [
+                    "Initial consultation",
+                    "Basic health assessment",
+                    "Blood pressure & BMI check",
+                    "Lab tests",
+                    "Specialist referral"
+                ]
+            },
+            "standard": {
+                "title": "Standard Plan",
+                "features": [
+                    "All Basic Checkup features",
+                    "Annual lab tests",
+                    "One follow-up session",
+                    "Online appointment booking",
+                    "Emergency support"
+                ]
+            },
+            "premium": {
+                "title": "Premium Plan",
+                "features": [
+                    "Everything in Standard Plan",
+                    "Monthly checkups",
+                    "Priority scheduling",
+                    "Specialist consultations",
+                    "Basic emergency support"
+                ]
+            },
+            "ultimate": {
+                "title": "Ultimate Care",
+                "badge": "Advanced",
+                "features": [
+                    "Unlimited consultations",
+                    "Full diagnostics & lab",
+                    "24/7 doctor access",
+                    "Emergency support included",
+                    "Priority specialist access"
+                ]
+            }
+        }
+    },
+    "services": {
+        "title": "Services",
+        "subtitle": "Explore a wide range of medical specialties and services tailored to meet your healthcare needs.",
+        "items": [
+            {
+                "icon": "fas fa-heartbeat",
+                "title": "Cardiology",
+                "description": "Comprehensive heart care, from diagnostics to advanced treatment plans tailored for each patient."
+            },
+            {
+                "icon": "fas fa-pills",
+                "title": "Pharmacy Services",
+                "description": "On-site pharmacy with a wide range of medications and expert guidance for safe usage and dosage."
+            },
+            {
+                "icon": "fas fa-hospital-user",
+                "title": "Patient Care",
+                "description": "24/7 in-patient and out-patient support to ensure a comfortable and safe healing experience."
+            },
+            {
+                "icon": "fas fa-dna",
+                "title": "Laboratory Testing",
+                "description": "Fast and accurate lab results using state-of-the-art diagnostic equipment and trained professionals."
+            },
+            {
+                "icon": "fas fa-wheelchair",
+                "title": "Rehabilitation",
+                "description": "Personalized rehab programs for physical therapy, post-surgery recovery, and chronic condition support."
+            },
+            {
+                "icon": "fas fa-notes-medical",
+                "title": "Medical Records",
+                "description": "Secure and organized medical records system for easy access, history tracking, and doctor collaboration."
+            }
+        ],
+        "cardiology": {
+            "title": "Cardiology",
+            "desc": "We provide expert heart care with state-of-the-art technology and top specialists."
+        },
+        "pharmacy": {
+            "title": "Pharmacy",
+            "desc": "Our in-house pharmacy offers a wide range of medications and professional advice."
+        },
+        "checkups": {
+            "title": "Medical Checkups",
+            "desc": "Regular health checkups to keep your well-being on track and detect early issues."
+        },
+        "lab": {
+            "title": "Laboratory",
+            "desc": "Accurate diagnostic testing using modern lab equipment and experienced technicians."
+        },
+        "title": "Services",
+        "subtitle": "Explore a wide range of medical specialties and services tailored to meet your healthcare needs.",
+        "items": {
+            "cardiology": {
+                "title": "Cardiology",
+                "desc": "Comprehensive heart care, from diagnostics to advanced treatment plans tailored for each patient."
+            },
+            "pharmacy": {
+                "title": "Pharmacy Services",
+                "desc": "On-site pharmacy with a wide range of medications and expert guidance for safe usage and dosage."
+            },
+            "patient": {
+                "title": "Patient Care",
+                "desc": "24/7 in-patient and out-patient support to ensure a comfortable and safe healing experience."
+            },
+            "lab": {
+                "title": "Laboratory Testing",
+                "desc": "Fast and accurate lab results using state-of-the-art diagnostic equipment and trained professionals."
+            },
+            "rehab": {
+                "title": "Rehabilitation",
+                "desc": "Personalized rehab programs for physical therapy, post-surgery recovery, and chronic condition support."
+            },
+            "records": {
+                "title": "Medical Records",
+                "desc": "Secure and organized medical records system for easy access, history tracking, and doctor collaboration."
+            }
+        }
+    },
+    "stats": {
+        "doctors": "Doctors",
+        "departments": "Departments",
+        "labs": "Research Labs",
+        "awards": "Awards"
+    },
+    "departments": {
+        "title": "Departments",
+        "description": "Explore our specialized departments providing expert care and advanced treatments tailored to patient needs.",
+        "items": {
+            "cardiology": {
+                "title": "Cardiology",
+                "subtitle": "Our cardiology department offers cutting-edge diagnostics and treatments for all types of heart conditions.",
+                "content": "We specialize in non-invasive and interventional cardiology, treating patients with heart disease, arrhythmias, hypertension, and more. Our team of experts ensures personalized care using the latest medical technology and evidence-based protocols."
+            },
+            "neurology": {
+                "title": "Neurology",
+                "subtitle": "Advanced care for disorders of the brain, spinal cord, and nervous system.",
+                "content": "We diagnose and manage conditions such as epilepsy, stroke, Parkinson’s disease, and multiple sclerosis. Our multidisciplinary approach ensures patients receive comprehensive care, from diagnostics to rehabilitation and support therapy."
+            },
+            "hepatology": {
+                "title": "Hepatology",
+                "subtitle": "Expert care for liver, gallbladder, and pancreatic diseases.",
+                "content": "We offer evaluation and management of hepatitis, cirrhosis, fatty liver disease, and other hepatic conditions. Our team collaborates with gastroenterology and oncology units to provide integrated care for complex liver disorders."
+            },
+            "pediatrics": {
+                "title": "Pediatrics",
+                "subtitle": "Dedicated to the health and well-being of infants, children, and adolescents.",
+                "content": "Our pediatricians provide routine checkups, vaccinations, developmental screenings, and treatment for common childhood illnesses. We emphasize a family-centered approach to care and early intervention for long-term health benefits."
+            },
+            "ophthalmology": {
+                "title": "Ophthalmologists",
+                "subtitle": "Providing comprehensive eye care, from vision correction to complex surgeries.",
+                "content": "We treat cataracts, glaucoma, macular degeneration, and other ocular diseases. With advanced diagnostic tools and surgical expertise, our ophthalmology team ensures patients receive clear vision and healthy eyes at every stage of life."
+            }
+        }
+    },
+    "testimonials": {
+        "title": "Testimonials",
+        "subtitle": "What our patients and partners say about us",
+        "items": [
+            {
+                "text": "Medicio provided excellent care and attention throughout my treatment. The staff was compassionate and truly committed to my recovery journey.",
+                "name": "Saul Goodman",
+                "role": "CEO & Founder"
+            },
+            {
+                "text": "Our collaboration with Medicio’s research team was outstanding. Their professionalism and innovative approach brought measurable results to our clinical study.",
+                "name": "Sara Wilsson",
+                "role": "Designer"
+            },
+            {
+                "text": "The doctors at Medicio are knowledgeable and caring. They explained everything in detail and made sure I was comfortable throughout my visits.",
+                "name": "Jena Karlis",
+                "role": "Store Owner"
+            },
+            {
+                "text": "Impressed by the state-of-the-art facilities and the warm, welcoming environment. I’d highly recommend Medicio for any health concern.",
+                "name": "Matt Brandon",
+                "role": "Freelancer"
+            },
+            {
+                "text": "The team was attentive and responsive to every question I had. Their support helped me feel confident and well cared for throughout my treatment.",
+                "name": "John Larson",
+                "role": "Entrepreneur"
+            }
+        ]
+    },
+    "footer": {
+        "address": {
+            "line1": "A108 Adam Street",
+            "line2": "New York, NY 535022"
+        },
+        "phone": {
+            "label": "Phone:",
+            "number": "+1 5589 55488 55"
+        },
+        "email": {
+            "label": "Email:",
+            "address": "infoexample.com"
+        },
+        "sections": {
+            "useful_links": {
+                "title": "Useful Links",
+                "links": {
+                    "home": "Home",
+                    "about": "About Us",
+                    "services": "Services",
+                    "terms": "Terms of Service",
+                    "privacy": "Privacy Policy"
+                }
+            },
+            "digital_services": {
+                "title": "Our Services",
+                "links": {
+                    "web_design": "Web Design",
+                    "web_dev": "Web Development",
+                    "product_mgmt": "Product Management",
+                    "marketing": "Marketing",
+                    "graphic_design": "Graphic Design"
+                }
+            },
+            "medical_services": {
+                "title": "Our Services",
+                "links": {
+                    "checkups": "General Checkups",
+                    "pediatrics": "Pediatrics",
+                    "cardiology": "Cardiology",
+                    "dental": "Dental Care",
+                    "emergency": "Emergency Services"
+                }
+            },
+            "quick_links": {
+                "title": "Quick Links",
+                "links": {
+                    "about_us": "About Us",
+                    "doctors": "Our Doctors",
+                    "appointments": "Appointments",
+                    "portal": "Patient Portal",
+                    "contact": "Contact"
+                }
+            }
+        },
+        "copyright": {
+            "year": "Copyright 2025",
+            "rights": "All Rights Reserved"
+        }
+    },
+    "header": {
+        "schedule": "Monday - Saturday, 8AM to 10PM",
+        "call": "Call us now +1 5589 55488 55"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "departments": "Departments",
+        "doctors": "Doctors",
+        "contact": "Contact",
+        "appointment": "Make an Appointment"
+    }
+}

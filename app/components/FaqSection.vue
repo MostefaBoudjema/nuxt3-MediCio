@@ -1,8 +1,8 @@
 <template>
   <section id="faq" class="faq section light-background">
     <div class="container section-title" data-aos="fade-up">
-      <h2>Frequently Asked Questions</h2>
-      <p>Find answers to common questions about appointments, services, and patient support.</p>
+      <h2>{{ $t('faq.title') }}</h2>
+      <p>{{ $t('faq.description') }}</p>
     </div>
     <div class="container">
       <div class="row justify-content-center">
@@ -16,9 +16,9 @@
               :class="{ active: activeIndex === index }"
               @click="toggle(index)"
             >
-              <h3>{{ item.question }}</h3>
+              <h3>{{ $t(item.question) }}</h3>
               <div class="faq-content" v-if="activeIndex === index">
-                <p>{{ item.answer }}</p>
+                <p>{{ $t(item.answer) }}</p>
               </div>
               <i
                 class="faq-toggle bi"
@@ -43,32 +43,15 @@ const toggle = (index) => {
 }
 
 const faqItems = [
-  {
-    question: 'How can I book an appointment?',
-    answer: 'You can book an appointment online through our website, by calling us directly, or by visiting our clinic during working hours.'
-  },
-  {
-    question: 'Do I need a referral to see a specialist?',
-    answer: 'No referral is needed for most of our services. However, some insurance providers may require a referral for coverage purposes.'
-  },
-  {
-    question: 'What should I bring to my first visit?',
-    answer: 'Please bring your ID, any medical records, a list of medications you\'re taking, and your insurance information if applicable.'
-  },
-  {
-    question: 'Can I reschedule or cancel my appointment?',
-    answer: 'Yes. You can reschedule or cancel your appointment up to 24 hours in advance by calling our front desk or using our online system.'
-  },
-  {
-    question: 'Do you accept walk-ins?',
-    answer: 'We recommend booking in advance, but we do accept walk-ins based on availability. Priority is given to those with appointments.'
-  },
-  {
-    question: 'Which insurance plans do you accept?',
-    answer: 'We accept most major insurance providers. Please contact us or check our insurance page for a full list of accepted plans.'
-  }
+  { question: 'faq.q1.question', answer: 'faq.q1.answer' },
+  { question: 'faq.q2.question', answer: 'faq.q2.answer' },
+  { question: 'faq.q3.question', answer: 'faq.q3.answer' },
+  { question: 'faq.q4.question', answer: 'faq.q4.answer' },
+  { question: 'faq.q5.question', answer: 'faq.q5.answer' },
+  { question: 'faq.q6.question', answer: 'faq.q6.answer' }
 ]
 </script>
+
 
 <style scoped>
 .faq-item {
