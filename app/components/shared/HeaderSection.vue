@@ -7,13 +7,16 @@
             <i class="bi bi-clock me-1"></i> {{ $t('header.schedule') }}
           </div>
           <div class="d-flex align-items-center">
-            <i class="bi bi-phone me-1"></i> {{ $t('header.call') }}
+            <i class="bi bi-phone mx-1"></i>
+            {{ $t('header.call') }} <span dir="ltr">{{ $t('header.number') }}</span>
+
           </div>
+
         </div>
       </div>
+
       <div class="branding d-flex align-items-center">
-        <div
-          :class="['container position-relative d-flex align-items-center justify-content-end']">
+        <div :class="['container position-relative d-flex align-items-center justify-content-end']">
           <NuxtLink to="/" class="logo d-flex align-items-center ms-auto">
             <img src="/img/logo.png" alt="">
           </NuxtLink>

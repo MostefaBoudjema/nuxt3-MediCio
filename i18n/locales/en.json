@@ -416,7 +416,8 @@
     },
     "header": {
         "schedule": "Monday - Saturday, 8AM to 10PM",
-        "call": "Call us now +213 661 234 567"
+        "call": "Call us now ",
+        "number": "+213 661 234 567"
     },
     "nav": {
         "home": "Home",

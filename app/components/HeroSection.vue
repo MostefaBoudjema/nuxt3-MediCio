@@ -53,14 +53,22 @@ const { locale, locales, localeProperties } = useI18n();
 
 const textDirection = computed(() => (localeProperties.value.dir === 'rtl' ? 'text-end' : 'text-start'));
 </script>
+
 <style scoped>
-.carousel-item img {
-  object-fit: cover;
-  height: 100vh;
+/* RTL styles for Arabic locale */
+* {
+  direction: ltr;
 }
 
-html[dir='rtl'] .carousel-item {
-  direction: ltr;
+/* Example: Reverse alignment for text */
+.text-left {
   text-align: left;
 }
+
+.text-right {
+  text-align: right;
+}
+
+/* Add more styles as needed */
+
 </style>
