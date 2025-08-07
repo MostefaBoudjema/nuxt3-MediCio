@@ -1,16 +1,15 @@
 {
-    
-    "Medicio" : "Medicio",
+    "Medicio": "Medicio",
     "about": {
         "title": "About Us",
-        "subtitle": "We are a dedicated team of developers and creatives delivering impactful digital solutions tailored to your business needs.",
-        "imageAlt": "About us image",
-        "heading": "Empowering Businesses Through Technology and Innovation",
-        "mission": "Our mission is to transform your vision into reality through custom software, intuitive interfaces, and scalable digital strategies.",
-        "point1": "We craft responsive, SEO-friendly websites that drive results.",
-        "point2": "Our team excels at building scalable backend systems using modern frameworks.",
-        "point3": "From branding to full-stack development, we deliver solutions that grow with your business.",
-        "description": "With years of experience across industries, we blend creativity with code to solve real-world problems and support long-term success. Let's build something great together."
+        "subtitle": "Our medical team consists of highly skilled doctors and specialists, committed to providing comprehensive and exceptional healthcare.",
+        "imageAlt": "Team photo",
+        "heading": "We care with precision, and always aim for excellence",
+        "mission": "Our mission is to deliver trusted medical services using the latest technologies in a comfortable and safe environment that respects your privacy.",
+        "point1": "We offer accurate medical consultations and thorough diagnostics for every case.",
+        "point2": "We use modern equipment and advanced techniques to ensure the best treatment outcomes.",
+        "point3": "Our team cares about every detail from your first visit until full recovery.",
+        "description": "With years of experience across various medical fields, we’re dedicated to building long-term trust and care for every patient. Your visit is the first step to better health."
     },
     "hero": {
         "slide1": {
