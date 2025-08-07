@@ -1,8 +1,8 @@
 <template>
   <section id="faq" class="faq section light-background">
     <div class="container section-title" data-aos="fade-up">
-      <h2>{{ $t('faq.title') }}</h2>
-      <p>{{ $t('faq.description') }}</p>
+      <h2>{{ $t('faq.title', 'Frequently Asked Questions') }}</h2>
+      <p>{{ $t('faq.description', 'Answers to common questions.') }}</p>
     </div>
     <div class="container">
       <div class="row justify-content-center">
@@ -19,18 +19,16 @@
               :aria-controls="`faq-content-${index}`"
               @click="toggle(index)"
               @keyup.enter="toggle(index)"
-              @keyup.space="toggle(index)"
+              @keyup.space.prevent="toggle(index)"
             >
               <h3>{{ $t(item.question, item.question) }}</h3>
-              <transition name="fade">
-                <div
-                  v-if="activeIndex === index"
-                  :id="`faq-content-${index}`"
-                  class="faq-content"
-                >
-                  <p>{{ $t(item.answer, item.answer) }}</p>
-                </div>
-              </transition>
+              <div
+                v-if="activeIndex === index"
+                :id="`faq-content-${index}`"
+                class="faq-content"
+              >
+                <p>{{ $t(item.answer, item.answer) }}</p>
+              </div>
               <span
                 class="faq-toggle bi"
                 :class="activeIndex === index ? 'bi-chevron-down' : 'bi-chevron-right'"
@@ -62,6 +60,7 @@ const activeIndex = ref(null);
 
 // Toggle FAQ item
 const toggle = (index) => {
+  console.log('Toggling FAQ item:', index); // Debugging
   if (index < 0 || index >= faqItems.value.length) {
     console.warn('Invalid FAQ index:', index);
     return;
@@ -104,19 +103,6 @@ const toggle = (index) => {
 .faq-item:focus {
   outline: 2px solid #007bff;
   outline-offset: 2px;
-}
-
-/* Transition for smooth expand/collapse */
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.3s ease, max-height 0.3s ease;
-  max-height: 200px;
-}
-
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-  max-height: 0;
 }
 
 @media (max-width: 768px) {

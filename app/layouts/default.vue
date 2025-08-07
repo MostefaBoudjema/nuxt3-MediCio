@@ -6,6 +6,8 @@
     <main class="main-content">
       <slot />
     </main>
+    
+    <WhatsApp/>
     <!-- Footer -->
     <FooterSection />
   </div>
