@@ -6,18 +6,21 @@
     <main class="main-content">
       <slot />
     </main>
-    
-    <WhatsApp/>
+
+    <WhatsApp />
+
     <!-- Footer -->
     <FooterSection />
+    <ScrollTop /> <!-- Add this line -->
   </div>
 </template>
 <script setup>
 import FooterSection from '~/components/shared/FooterSection.vue';
 import HeaderSection from '~/components/shared/HeaderSection.vue';
+import ScrollTop from '~/components/shared/ScrollTop.vue';
 import { useI18n } from 'vue-i18n';
 
-const { locale } = useI18n();
+const { locale }=useI18n();
 
 useHead({
   // title: 'Home - MediCio',
