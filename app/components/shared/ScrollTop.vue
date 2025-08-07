@@ -39,23 +39,22 @@ onUnmounted(() => {
     right: 24px;
     bottom: 32px;
     z-index: 1000;
-    background: #007bff;
+    background: var(--accent-color);
     color: #fff;
     border: none;
-    border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
     font-size: 1.5rem;
     cursor: pointer;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
+    transition: all 0.4s;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .scroll-top:hover {
-    background: #0056b3;
+    background: color-mix(in srgb, var(--accent-color), transparent 20%);
     transform: translateY(-2px);
 }
 
