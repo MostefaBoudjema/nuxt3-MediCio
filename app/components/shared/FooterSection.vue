@@ -13,7 +13,7 @@
             <div class="footer-contact pt-3">
               <p>{{ $t('footer.address.line1') }}</p>
               <p>{{ $t('footer.address.line2') }}</p>
-              <p class="mt-3"><strong>{{ $t('footer.phone.label') }}</strong> <span>{{ $t('footer.phone.number')
+              <p class="mt-3"><strong>{{ $t('footer.phone.label') }}</strong> <span dir="ltr">{{ $t('footer.phone.number')
                   }}</span></p>
               <p><strong>{{ $t('footer.email.label') }}</strong> <span>{{ $t('footer.email.address') }}</span></p>
             </div>

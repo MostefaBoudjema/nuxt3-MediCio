@@ -31,7 +31,7 @@
               <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-telephone"></i>
                 <h3>{{ $t('contact.phoneTitle') }}</h3>
-                <p>{{ $t('contact.phone') }}</p>
+                <p dir="ltr">{{ $t('contact.phone') }}</p>
               </div>
             </div>
             <div class="col-md-6">

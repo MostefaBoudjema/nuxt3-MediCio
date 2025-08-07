@@ -18,7 +18,7 @@
             :data-aos-delay="(index + 3) * 100"
             data-aos="fade-up"
           >
-            <i :class="feature.icon + ' flex-shrink-0'"></i>
+            <i :class="feature.icon + ' flex-shrink-0'" class="mx-1"></i>
             <div>
               <h4><a href="#" class="stretched-link">{{ $t(feature.title) }}</a></h4>
               <p>{{ $t(feature.text) }}</p>
@@ -55,3 +55,8 @@ const featureItems = [
   },
 ];
 </script>
+<style scoped>
+.features h3:after {
+  right: 0;
+}
+</style>
