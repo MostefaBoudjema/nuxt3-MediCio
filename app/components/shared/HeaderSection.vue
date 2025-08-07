@@ -30,9 +30,9 @@
               <li><a href="#doctors">{{ $t('nav.doctors') }}</a></li>
               <li><a href="#contact">{{ $t('nav.contact') }}</a></li>
             </ul>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
           <a class="cta-btn" href="#appointment">{{ $t('nav.appointment') }}</a>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </div>
       </div>
     </header>
