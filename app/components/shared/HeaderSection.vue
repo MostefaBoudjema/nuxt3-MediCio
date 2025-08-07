@@ -16,7 +16,9 @@
       </div>
 
       <div class="branding d-flex align-items-center">
-        <div :class="['container position-relative d-flex align-items-center justify-content-end']">
+        <div class="container position-relative d-flex align-items-center justify-content-center">
+
+
           <NuxtLink to="/" class="logo d-flex align-items-center ms-auto">
             <img :src="$i18n.locale === 'ar' ? '/img/logo - rtl.png' : '/img/logo.png'" alt="Logo">
 
@@ -38,3 +40,48 @@
     </header>
   </div>
 </template>
+<script setup>
+import { onMounted, onBeforeUnmount } from 'vue';
+
+let mobileNavToggleBtn;
+
+function toggleMobileNav() {
+  document.body.classList.toggle('mobile-nav-active');
+  if (mobileNavToggleBtn) {
+    mobileNavToggleBtn.classList.toggle('bi-list');
+    mobileNavToggleBtn.classList.toggle('bi-x');
+  }
+}
+
+function closeMobileNav() {
+  document.body.classList.remove('mobile-nav-active');
+  if (mobileNavToggleBtn) {
+    mobileNavToggleBtn.classList.add('bi-list');
+    mobileNavToggleBtn.classList.remove('bi-x');
+  }
+}
+
+onMounted(() => {
+  mobileNavToggleBtn=document.querySelector('.mobile-nav-toggle');
+  if (mobileNavToggleBtn) {
+    mobileNavToggleBtn.addEventListener('click', toggleMobileNav);
+  }
+
+  // Close nav on any nav link click
+  document.querySelectorAll('.navmenu ul li a').forEach(link => {
+    link.addEventListener('click', () => {
+      closeMobileNav();
+    });
+  });
+});
+
+onBeforeUnmount(() => {
+  if (mobileNavToggleBtn) {
+    mobileNavToggleBtn.removeEventListener('click', toggleMobileNav);
+  }
+
+  document.querySelectorAll('.navmenu ul li a').forEach(link => {
+    link.removeEventListener('click', closeMobileNav);
+  });
+});
+</script>
