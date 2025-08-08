@@ -1,23 +1,20 @@
 <template>
   <div>
-    <!-- Header -->
     <HeaderSection />
-    <!-- Main content -->
     <main class="main-content">
       <slot />
     </main>
+    <FooterSection />
 
     <WhatsApp />
-
-    <!-- Footer -->
-    <FooterSection />
-    <ScrollTop /> <!-- Add this line -->
+    <ScrollTop /> 
   </div>
 </template>
 <script setup>
 import FooterSection from '~/components/shared/FooterSection.vue';
 import HeaderSection from '~/components/shared/HeaderSection.vue';
 import ScrollTop from '~/components/shared/ScrollTop.vue';
+import WhatsApp from '~/components/shared/WhatsApp.vue';
 import { useI18n } from 'vue-i18n';
 
 const { locale }=useI18n();
@@ -41,6 +38,9 @@ useHead({
   ],
   script: [
     { src: '/vendor/bootstrap/js/bootstrap.bundle.min.js', body: true },
+    { src: '/vendor/bootstrap/js/bootstrap.js', body: true },
+    // { src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js', body: true },
+    // { src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM', body: true },
     { src: '/vendor/php-email-form/validate.js', body: true },
     { src: '/vendor/aos/aos.js', body: true },
     { src: '/vendor/glightbox/js/glightbox.min.js', body: true },

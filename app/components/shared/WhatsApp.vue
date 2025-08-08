@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-const whatsappNumber="213793663310"; // Replace with your WhatsApp number
+const whatsappNumber="213793692289"; // Replace with your WhatsApp number
 const whatsappImag="/img/whatsapp.svg"; // Replace with your WhatsApp image path
 
 
