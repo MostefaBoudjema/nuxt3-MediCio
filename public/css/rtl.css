@@ -1,3 +1,8 @@
+/* assets/css/rtl.css */
+body {
+  direction: rtl;
+  text-align: right;
+}
 /* RTL styles for Arabic locale */
 html[lang='ar'] {
   direction: rtl;
