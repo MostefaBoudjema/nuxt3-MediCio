@@ -23,38 +23,7 @@ export default defineNuxtPlugin(() => {
 
   document.addEventListener('scroll', toggleScrolled);
   window.addEventListener('load', toggleScrolled);
-
-  // Mobile nav toggle
-  const mobileNavToggleBtn = document.querySelector<HTMLElement>('.mobile-nav-toggle');
-  if (mobileNavToggleBtn) {
-    const toggleMobileNav = () => {
-      document.body.classList.toggle('mobile-nav-active');
-      mobileNavToggleBtn.classList.toggle('bi-list');
-      mobileNavToggleBtn.classList.toggle('bi-x');
-    };
-
-    mobileNavToggleBtn.addEventListener('click', toggleMobileNav);
-
-    document.querySelectorAll<HTMLAnchorElement>('#navmenu a').forEach((link) => {
-      link.addEventListener('click', () => {
-        if (document.body.classList.contains('mobile-nav-active')) {
-          toggleMobileNav();
-        }
-      });
-    });
-  }
-
-  // Toggle mobile nav dropdowns
-  document.querySelectorAll<HTMLElement>('.navmenu .toggle-dropdown').forEach((toggle) => {
-    toggle.addEventListener('click', (e) => {
-      e.preventDefault();
-      const parent = toggle.parentElement;
-      const sibling = toggle.parentElement?.nextElementSibling as HTMLElement | null;
-      if (parent) parent.classList.toggle('active');
-      if (sibling) sibling.classList.toggle('dropdown-active');
-      e.stopImmediatePropagation();
-    });
-  });
+  
 
   // Preloader
   const preloader = document.querySelector<HTMLElement>('#preloader');

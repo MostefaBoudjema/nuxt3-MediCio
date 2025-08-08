@@ -21,8 +21,8 @@
 
           <NuxtLink to="/" class="logo d-flex align-items-center ms-auto">
             <img :src="$i18n.locale === 'ar' ? '/img/logo - rtl.png' : '/img/logo.png'" alt="Logo">
+
           </NuxtLink>
-          
           <nav id="navmenu" class="navmenu">
             <ul :class="{ 'flex-row-reverse': $i18n.locale === 'ar' }">
               <li><a href="#hero" class="active">{{ $t('nav.home') }}</a></li>
