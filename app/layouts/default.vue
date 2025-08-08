@@ -45,7 +45,7 @@ useHead({
     { src: '/vendor/aos/aos.js', body: true },
     { src: '/vendor/glightbox/js/glightbox.min.js', body: true },
     { src: '/vendor/purecounter/purecounter_vanilla.js', body: true },
-    { src: '/js/main.js', body: true }
+    // { src: '/js/main.js', body: true }
   ]
 })
 
